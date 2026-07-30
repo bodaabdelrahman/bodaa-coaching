@@ -1158,3 +1158,20 @@ transform:translateY(-6px);
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+/* منع تحديد النص على الموبايل */
+html,
+body,
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* السماح بالكتابة داخل حقول الإدخال فقط */
+input,
+textarea{
+    -webkit-user-select: text;
+    user-select: text;
+}
