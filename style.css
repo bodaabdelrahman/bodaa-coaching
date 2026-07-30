@@ -1150,3 +1150,11 @@ transform:translateY(-6px);
     font-size:15px;
 
 }
+
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
