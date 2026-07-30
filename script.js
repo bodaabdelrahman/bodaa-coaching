@@ -193,4 +193,13 @@ window.addEventListener("scroll", () => {
 
     });
 
+
+
 });
+
+function openWhatsapp() {
+    window.open(
+        "https://wa.me/201551329882",
+        "_blank"
+    );
+}
