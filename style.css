@@ -375,11 +375,11 @@ box-shadow:0 20px 40px rgba(255,212,0,.35);
 
 .cards{
 
-    display:grid;
+display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+grid-template-columns:repeat(4,1fr);
 
-    gap:35px;
+gap:25px;
 
 }
 
@@ -1127,5 +1127,26 @@ visibility:visible;
 .top-btn:hover{
 
 transform:translateY(-6px);
+
+}
+
+.plan-text{
+
+    color:#bdbdbd;
+
+    line-height:28px;
+
+    margin-bottom:25px;
+
+    font-size:15px;
+
+}
+
+.plan-text{
+
+    color:#d8d8d8;
+    line-height:32px;
+    margin:25px 0;
+    font-size:15px;
 
 }
